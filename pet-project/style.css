@@ -1,5 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body {
     font-family: sans-serif;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main {
+    width: 510px;
+    font-size: 64px;
+    color: #1F3F68;
 }
 
 .par {
@@ -8,9 +29,8 @@ body {
     color: #1F3F68;
 }
 
-.main {
-    font-size: 64px;
-    color: #1F3F68;
+.par1 {
+    width: 425px;
 }
 
 .main2 {
@@ -24,6 +44,15 @@ body {
     text-align: center;
 }
 
+.card-box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card {
+    width: 359px;
+}
+
 .main4 {
     font-size: 20px;
     line-height: 30px;
@@ -31,10 +60,7 @@ body {
 }
 
 .input {
-    border: 1px solid #356EAD;
-    box-sizing: border-box;
     border-radius: 10px;
-    opacity: 0.4;
 }
 
 .push {
@@ -47,4 +73,25 @@ body {
     text-align: center;
     color: #FFFFFF;
     text-transform: uppercase;
+}
+
+.question {
+    width: 495px;
+}
+
+.footer__info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contacts__input {
+    display: flex;
+}
+
+.footer__name {
+    font-size: 36px;
+}
+
+.cont {
+    flex-grow: 1;
 }
