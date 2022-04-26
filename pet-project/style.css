@@ -8,12 +8,12 @@ body {
 }
 
 .container {
-    width: 1140px;
+    max-width: 1140px;
     margin: 0 auto;
 }
 
 .top {
-    height: 768px;
+    min-height: 768px;
     background: linear-gradient(0deg, #EBF3FB 8.84%, rgba(152, 195, 232, 0) 31.12%);
 }
 
@@ -40,6 +40,7 @@ body {
     background-image: url(img/top__back.png);
     background-repeat: no-repeat;
     background-position: right center;
+    background-size: 44%;
 }
 
 .top__heading {
@@ -85,7 +86,7 @@ body {
     background: #2480d1;
 }
 
-.top__parent__name {
+.top__name__parent {
     display: flex;
     flex-direction: column;
     height: 100%;
@@ -359,4 +360,213 @@ body {
 
 .cont {
     flex-grow: 1;
+    padding-left: 37px;
+}
+
+@media (max-width: 1024px) {
+    .container {
+        padding-left: 32px;
+        padding-right: 32px;
+    }
+
+    .top__info {
+        background-position: right bottom;
+        padding-bottom: 62px;
+
+    }
+
+    .card-box {
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 0px;
+    }
+
+    .card {
+        margin-bottom: 32px;
+    }
+
+    .project {
+        margin-top: 127px;
+    }
+
+    .footer {
+        margin-top: 109px;
+    }
+
+    .footer__top {
+        padding-left: 92px;
+    }
+
+    .question {
+        max-width: 336px;
+    }
+
+    .footer__name {
+        width: 336px;
+        padding-top: 47px;
+    }
+
+    .text__footer {
+        padding-bottom: 64px;
+    }
+
+    .footer__link {
+        padding-top: 164px;
+        margin-right: 96px;
+    }
+
+    .footer__button {
+        padding: 5px 38px;
+    }
+
+    .footer__bottom {
+        padding-left: 92px;
+    }
+
+    .footer__info {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 667px) {
+    .header {
+        padding-top: 24px;
+    }
+
+    .top {
+        min-height: 376px;
+        padding-bottom: 41px;
+        box-sizing: border-box;
+    }
+
+    .ul {
+        padding-top: 0;
+    }
+
+    .top__info {
+        padding-top: 36px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-image: none;
+    }
+
+    .top__heading {
+        width: 100%;
+        font-size: 32px;
+        line-height: 37px;
+        margin-bottom: 12px;
+        text-align: center;
+    }
+
+    .top__text {
+        width: 100%;
+        text-align: center;
+    }
+
+    .top__button {
+        font-size: 12px;
+        line-height: 26px;
+        padding: 0 8px;
+        margin-top: 32px;
+    }
+
+    .heading {
+        font-size: 24px;
+        line-height: 28px;
+    }
+
+    .content {
+        padding-top: 48px;
+    }
+
+    .card-box {
+        padding-top: 32px;
+    }
+
+    .card {
+        width: 100%;
+    }
+
+    .project {
+        margin-bottom: 0px;
+    }
+
+    .text__project {
+        width: 100%;
+    }
+
+    .project__text {
+        font-size: 16px;
+        line-height: 19px;
+        top: 16px;
+        right: 16px;
+    }
+
+    .project__parent {
+        flex-direction: column;
+        margin-top: 16px;
+    }
+
+    .project__text__item {
+        font-size: 16px;
+        line-height: 19px;
+        left: 16px;
+    }
+
+    .project__img__left {
+        margin-right: 0;
+        margin-bottom: 16px;
+    }
+
+    .footer {
+        margin-top: 64px;
+    }
+
+    .footer__top {
+        flex-direction: column;
+        padding-left: 0;
+        align-items: center;
+    }
+
+    .footer__name {
+        width: 343px;
+        font-size: 24px;
+        line-height: 28px;
+        text-align: center;
+        padding-top: 18px;
+    }
+
+    .text__footer {
+        text-align: center;
+        padding-bottom: 40px;
+    }
+
+    .footer__link {
+        padding-top: 0;
+        margin-right: 0;
+        padding-bottom: 41px;
+    }
+
+    .footer__button {
+        padding: 5px 14px;
+    }
+
+    .footer__info {
+        margin-top: 32px;
+        padding-bottom: 37px;
+    }
+
+    .footer__bottom {
+        padding-left: 0;
+    }
+
+    .cont {
+        line-height: 19px;
+        padding-bottom: 17px;
+    }
+
+    .rights {
+        text-align: center;
+    }
 }
