@@ -426,6 +426,10 @@ body {
     .footer__info {
         flex-direction: column;
     }
+
+    .cont {
+        padding-bottom: 25px;
+    }
 }
 
 @media (max-width: 667px) {
@@ -530,14 +534,19 @@ body {
     }
 
     .footer__name {
-        width: 343px;
+        width: 100%;
         font-size: 24px;
         line-height: 28px;
         text-align: center;
         padding-top: 18px;
     }
 
+    .question {
+        width: 100%;
+    }
+
     .text__footer {
+        width: 100%;
         text-align: center;
         padding-bottom: 40px;
     }
@@ -558,7 +567,7 @@ body {
     }
 
     .footer__bottom {
-        padding-left: 0;
+        padding-left: 17px;
     }
 
     .cont {
